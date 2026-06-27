@@ -54,7 +54,7 @@ common:
     url: https://distrokid.com
   - type: Pricing
     url: https://distrokid.com/pricing/
-  - type: SignUp
+  - type: Signup
     url: https://distrokid.com/signup/
   - type: Login
     url: https://distrokid.com/signin/
