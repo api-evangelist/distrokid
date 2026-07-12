@@ -50,6 +50,10 @@ modified: '2026-05-25'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/distrokid-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/distrokid-domain-security.yml
   - type: Website
     url: https://distrokid.com
   - type: Pricing
