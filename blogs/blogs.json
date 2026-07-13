@@ -2,11 +2,13 @@
   "repo": "distrokid",
   "feeds": [
     {
-      "source": "https://blog.distrokid.com",
+      "source": "https://distrokid.com/teams/",
+      "feed_url": "https://distrokid.com/teams/",
+      "title": "",
       "saved": 0,
-      "error": "blog subdomain DNS failure; apex /blog and news.distrokid.com return 403"
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T12:36:58Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0
 }
