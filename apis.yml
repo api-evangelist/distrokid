@@ -27,6 +27,17 @@ description: >-
   portal. Third-party reverse-engineered wrappers such as the unofficial
   Golang `distrogo` library exist but are not endorsed.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
