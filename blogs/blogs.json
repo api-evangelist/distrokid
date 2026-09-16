@@ -3,12 +3,9 @@
   "feeds": [
     {
       "source": "https://distrokid.com/teams/",
-      "feed_url": "https://distrokid.com/teams/",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-09-06T19:17:18Z",
+  "fetched": "2026-09-13T13:00:00Z",
   "post_count": 0
 }
