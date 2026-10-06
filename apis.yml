@@ -68,10 +68,12 @@ tags:
   - Creator Economy
 url: https://raw.githubusercontent.com/api-evangelist/distrokid/refs/heads/main/apis.yml
 created: '2026-05-25'
-modified: '2026-05-25'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://distrokid.com/resources/blog/
+    type: Blog
   - type: VulnerabilityDisclosure
     url: security/distrokid-vulnerability-disclosure.yml
   - type: DomainSecurity
