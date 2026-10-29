@@ -1,4 +1,4 @@
-# distrokid
+# DistroKid
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DistroKid — unlimited music distribution platform for independent artists
+DistroKid is a Brooklyn, New York based digital music distribution service founded in 2013 by Philip Kaplan that lets independent musicians and labels upload an unlimited number of songs and albums to Spotify, Apple Music, Amazon Music, YouTube Music, TikTok, Instagram, Pandora, Tidal, Deezer, and dozens of other streaming and download stores for a flat annual subscription fee while keeping 100% of their royalties. By 2020 the platform was distributing roughly a third of all new music released worldwide and serving more than two million artists; Spotify and Insight Partners both hold equity stakes following a 2021 valuation around $1.3B. Around the core distribution product DistroKid has built out a suite of artist services including Teams for automated royalty splits, cover-song mechanical licensing, YouTube Content ID monetization, DistroVid music-video distribution, Upstream label matching, Mixea AI mastering, and DistroKid Direct for fan merchandising and pre-orders. The company has historically operated without a public developer API — integrations with stores, DSPs, rights organizations, and partners are handled through private B2B arrangements, and the only public web endpoints exposed under distrokid.com/api are unauthenticated pre-save widgets used to drive Spotify follow/save campaigns. DistroKid is actively hiring API engineers to scale partner and AI-facing integrations, suggesting a more formal developer surface may emerge, but as of 2026 there is no published OpenAPI specification, SDK, CLI, sandbox, or developer portal. Third-party reverse-engineered wrappers such as the unofficial Golang `distrogo` library exist but are not endorsed.
+
+**Areas:** Music · Music Distribution · Digital Music · Streaming · Independent Artists · Royalties · Rights Management · Content ID · Music Mastering · Music Videos · Merchandise · Subscription
+
+## DistroKid on APIs.io
+
+Everything profiled for DistroKid is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/distrokid/](https://apis.io/providers/distrokid/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Distrokid Domain Security](https://apis.io/security/distrokid/distrokid-domain-security/)
+- [Distrokid Vulnerability Disclosure](https://apis.io/security/distrokid/distrokid-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://distrokid.com)
+- [Pricing](https://distrokid.com/pricing/)
+- [Blog](https://distrokid.com/resources/blog/)
+
+## API Evangelist rating
+
+**Kin Score 9.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 6.0 |
+| Access clarity | 17.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/distrokid/](https://apis.io/providers/distrokid/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DistroKid: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/distrokid/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
